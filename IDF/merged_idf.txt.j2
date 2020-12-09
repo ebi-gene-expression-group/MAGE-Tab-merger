@@ -1,0 +1,28 @@
+MAGE-TAB Version	1.1
+Comment[ArrayExpressAccession]  {{ new_accession }}
+Investigation Title {{ study_title }}
+Comment[Submitted Name] {{ submitted_name|default(study_title) }}
+Experiment Description  {{ experiment_description }}
+Experimental Factor Name	{% for factor_name in factor_names %}{{ factor_name }}{{ "\t" if not loop.last }}{% endfor %}
+Experimental Factor Type	{% for factor_type in factor_types %}{{ factor_type }}{{ "\t" if not loop.last }}{% endfor %}
+Person Last Name	{{ person_last_name }}
+Person First Name	{{ person_first_name }}
+Person Email	{{ person_email }}
+Person Address  The European Bioinformatics Institute (EMBL-EBI); Wellcome Genome Campus; Hinxton, Cambridgeshire, CB10 1SD, United Kingdom
+Person Affiliation  EBI
+Person Roles	submitter
+Public Release Date {{ public_release_yyyy_mm_dd }}
+Protocol Name	{% for protocol_name in protocol_names %}{{ protocol_name }}{{ "\t" if not loop.last }}{% endfor %}
+Protocol Type	{% for protocol_type in protocol_types %}{{ protocol_type }}{{ "\t" if not loop.last }}{% endfor %}
+Protocol Term Source REF	{% for ptsr in protocol_term_source_refs %}{{ ptsr }}{{ "\t" if not loop.last }}{% endfor %}
+Protocol Term Accession Number  {% for ptan in protocol_term_accession_numbers %}{{ ptan }}{{ "\t" if not loop.last }}{% endfor %}
+Protocol Description	All original protocols can be found in the corresponding dataset under Characteristics[study]	All original protocols can be found in the corresponding dataset under Characteristics[study]. All runs are biological replicates unless stated otherwise.  All original protocols can be found in the corresponding dataset under Characteristics[study]	All original protocols can be found in the corresponding dataset under Characteristics[study]	All original protocols can be found in the corresponding dataset under Characteristics[study]
+Protocol Hardware
+Term Source Name	NCBI Taxonomy	EFO ArrayExpress
+Term Source File	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.ebi.ac.uk/efo	www.ebi.ac.uk/arrayexpress
+Term Source Version	 2.38
+Comment[AEExperimentType]	RNA-seq of coding RNA
+Comment[SecondaryAccession]
+Comment[AEExperimentDisplayName]
+SDRF File	{{ sdrf_basename }}
+Comment[SecondaryAccession] {% for sec_accession in sec_accessions %}{{ sec_accession }}{{ "\t" if not loop.last }}{% endfor %}

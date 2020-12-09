@@ -1,0 +1,23 @@
+from setuptools import setup, find_packages
+
+
+def readme():
+    with open('README.md') as f:
+        return f.read()
+
+
+print(find_packages())
+
+setup(
+        name='MAGE-Tab merger',
+        version='0.0.1',
+        description='Merges MAGE-Tab files considering covariates',
+        long_description=readme(),
+        packages=find_packages(),
+        install_requires=['pandas', "networkx==2.5", "jinja2"],
+        author='Pablo Moreno',
+        long_description_content_type='text/markdown',
+        author_email='',
+        scripts=['load_library.py'],
+        license='MIT'
+    )
