@@ -18,6 +18,6 @@ setup(
         author='Pablo Moreno',
         long_description_content_type='text/markdown',
         author_email='',
-        scripts=['load_library.py'],
+        scripts=['merge_condensed_sdrfs.py', 'merge_sdrfs.py'],
         license='MIT'
     )
