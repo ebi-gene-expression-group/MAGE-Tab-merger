@@ -4,6 +4,18 @@ This package facilitates merging of MAGE-Tab components at different levels.
 
 Note: IDF merging is still work in progress.
 
+## Installation
+
+We recommend that you create a [Python 3 virtual environment](https://docs.python.org/3/library/venv.html#creating-virtual-environments),
+activate it (keep reading on the previous link), and then install there:
+
+```
+pip install --upgrade pip
+pip install MAGE-Tab-merger
+```
+
+Once installed, you need to activate that virtual environment before using it every time that you open a new shell.
+
 ## SDRF with no considerations on metadata
 
 This functionality will simply produce a new SDRF out of all the SDRFs provided, taking care to follow all the structure
