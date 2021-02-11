@@ -209,6 +209,9 @@ class SDRFColumn(object):
         :return: true if merged
         """
         if outer == self:
+            # Note that the equals method for SDRFColumn is overridden
+            # to depend only on the name and type of the column, not that
+            # it is the same object in memory.
             original_size = self.column_data.size
             self.column_data = self.column_data.append(outer.column_data, ignore_index=True)
 
