@@ -97,7 +97,7 @@ def add_assay_groups_from_accession(path, accession, assay_groups: ET.Element, c
     >>> path = _get_test_path()
     >>> add_assay_groups_from_accession(path, accession, ag)
     32
-    >>> children = ag.getchildren()
+    >>> children = [x for x in ag]
     >>> len(children)
     32
     >>> children[28].get("label") == f"tonsil; {accession}"
