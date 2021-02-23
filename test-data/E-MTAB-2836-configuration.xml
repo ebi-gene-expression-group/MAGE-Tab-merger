@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration experimentType="rnaseq_mrna_baseline" r_data="1">
+    <analytics>
+        <assay_groups>
+            <assay_group id="g1" label="adipose tissue">
+                <assay>ERR579122</assay>
+                <assay>ERR315332</assay>
+                <assay>ERR579146</assay>
+                <assay technical_replicate_id="t1">ERR315342</assay>
+                <assay technical_replicate_id="t1">ERR315343</assay>
+                <assay technical_replicate_id="t5">ERR315431</assay>
+                <assay technical_replicate_id="t5">ERR315378</assay>
+            </assay_group>
+            <assay_group id="g2" label="adrenal gland">
+                <assay technical_replicate_id="t11">ERR315452</assay>
+                <assay technical_replicate_id="t11">ERR315335</assay>
+                <assay technical_replicate_id="t35">ERR315450</assay>
+                <assay technical_replicate_id="t35">ERR315392</assay>
+                <assay technical_replicate_id="t60">ERR315385</assay>
+                <assay technical_replicate_id="t60">ERR315417</assay>
+            </assay_group>
+            <assay_group id="g3" label="bone marrow">
+                <assay technical_replicate_id="t12">ERR315469</assay>
+                <assay technical_replicate_id="t12">ERR315425</assay>
+                <assay technical_replicate_id="t17">ERR315333</assay>
+                <assay technical_replicate_id="t17">ERR315395</assay>
+                <assay technical_replicate_id="t45">ERR315406</assay>
+                <assay technical_replicate_id="t45">ERR315404</assay>
+                <assay technical_replicate_id="t48">ERR315486</assay>
+                <assay technical_replicate_id="t48">ERR315396</assay>
+            </assay_group>
+            <assay_group id="g4" label="cerebral cortex">
+                <assay>ERR315477</assay>
+                <assay>ERR315432</assay>
+                <assay>ERR315455</assay>
+            </assay_group>
+            <assay_group id="g5" label="colon">
+                <assay>ERR315400</assay>
+                <assay>ERR315462</assay>
+                <assay>ERR579148</assay>
+                <assay>ERR315348</assay>
+                <assay>ERR315484</assay>
+                <assay>ERR579129</assay>
+                <assay technical_replicate_id="t67">ERR315357</assay>
+                <assay technical_replicate_id="t67">ERR315403</assay>
+            </assay_group>
+            <assay_group id="g6" label="duodenum">
+                <assay technical_replicate_id="t40">ERR315442</assay>
+                <assay technical_replicate_id="t40">ERR315457</assay>
+                <assay technical_replicate_id="t64">ERR315461</assay>
+                <assay technical_replicate_id="t64">ERR315445</assay>
+            </assay_group>
+            <assay_group id="g7" label="endometrium">
+                <assay>ERR579123</assay>
+                <assay>ERR579138</assay>
+                <assay technical_replicate_id="t23">ERR315495</assay>
+                <assay technical_replicate_id="t23">ERR315361</assay>
+                <assay technical_replicate_id="t23">ERR315490</assay>
+                <assay technical_replicate_id="t4">ERR315368</assay>
+                <assay technical_replicate_id="t4">ERR315433</assay>
+                <assay technical_replicate_id="t53">ERR315386</assay>
+                <assay technical_replicate_id="t53">ERR315438</assay>
+            </assay_group>
+            <assay_group id="g8" label="esophagus">
+                <assay technical_replicate_id="t27">ERR315411</assay>
+                <assay technical_replicate_id="t27">ERR315362</assay>
+                <assay technical_replicate_id="t3">ERR315398</assay>
+                <assay technical_replicate_id="t3">ERR315472</assay>
+                <assay technical_replicate_id="t6">ERR315489</assay>
+                <assay technical_replicate_id="t6">ERR315434</assay>
+            </assay_group>
+            <assay_group id="g9" label="fallopian tube">
+                <assay>ERR579155</assay>
+                <assay>ERR579128</assay>
+                <assay>ERR579136</assay>
+                <assay>ERR579150</assay>
+                <assay>ERR579134</assay>
+                <assay>ERR579124</assay>
+            </assay_group>
+            <assay_group id="g10" label="gall bladder">
+                <assay technical_replicate_id="t10">ERR315427</assay>
+                <assay technical_replicate_id="t10">ERR315360</assay>
+                <assay technical_replicate_id="t15">ERR315470</assay>
+                <assay technical_replicate_id="t15">ERR315474</assay>
+                <assay technical_replicate_id="t15">ERR315349</assay>
+                <assay technical_replicate_id="t38">ERR315480</assay>
+                <assay technical_replicate_id="t38">ERR315347</assay>
+            </assay_group>
+            <assay_group id="g11" label="heart">
+                <assay technical_replicate_id="t30">ERR315331</assay>
+                <assay technical_replicate_id="t30">ERR315367</assay>
+                <assay technical_replicate_id="t31">ERR315389</assay>
+                <assay technical_replicate_id="t31">ERR315328</assay>
+                <assay technical_replicate_id="t31">ERR315435</assay>
+                <assay technical_replicate_id="t32">ERR315356</assay>
+                <assay technical_replicate_id="t32">ERR315430</assay>
+                <assay technical_replicate_id="t37">ERR315384</assay>
+                <assay technical_replicate_id="t37">ERR315413</assay>
+            </assay_group>
+            <assay_group id="g12" label="kidney">
+                <assay>ERR315443</assay>
+                <assay>ERR315494</assay>
+                <assay>ERR315383</assay>
+                <assay>ERR315468</assay>
+            </assay_group>
+            <assay_group id="g13" label="liver">
+                <assay>ERR315414</assay>
+                <assay technical_replicate_id="t33">ERR315327</assay>
+                <assay technical_replicate_id="t33">ERR315394</assay>
+                <assay technical_replicate_id="t39">ERR315463</assay>
+                <assay technical_replicate_id="t39">ERR315451</assay>
+            </assay_group>
+            <assay_group id="g14" label="lung">
+                <assay>ERR315341</assay>
+                <assay>ERR315346</assay>
+                <assay technical_replicate_id="t13">ERR315353</assay>
+                <assay technical_replicate_id="t13">ERR315487</assay>
+                <assay technical_replicate_id="t54">ERR315326</assay>
+                <assay technical_replicate_id="t54">ERR315424</assay>
+                <assay technical_replicate_id="t66">ERR315439</assay>
+                <assay technical_replicate_id="t66">ERR315444</assay>
+            </assay_group>
+            <assay_group id="g15" label="lymph node">
+                <assay technical_replicate_id="t18">ERR315488</assay>
+                <assay technical_replicate_id="t18">ERR315393</assay>
+                <assay technical_replicate_id="t20">ERR315371</assay>
+                <assay technical_replicate_id="t20">ERR315373</assay>
+                <assay technical_replicate_id="t46">ERR315493</assay>
+                <assay technical_replicate_id="t46">ERR315441</assay>
+                <assay technical_replicate_id="t46">ERR315440</assay>
+                <assay technical_replicate_id="t52">ERR315329</assay>
+                <assay technical_replicate_id="t52">ERR315390</assay>
+                <assay technical_replicate_id="t52">ERR315471</assay>
+                <assay technical_replicate_id="t7">ERR315475</assay>
+                <assay technical_replicate_id="t7">ERR315426</assay>
+                <assay technical_replicate_id="t7">ERR315387</assay>
+            </assay_group>
+            <assay_group id="g16" label="ovary">
+                <assay>ERR579132</assay>
+                <assay technical_replicate_id="t2">ERR315458</assay>
+                <assay technical_replicate_id="t2">ERR315402</assay>
+                <assay technical_replicate_id="t56">ERR315482</assay>
+                <assay technical_replicate_id="t56">ERR315380</assay>
+            </assay_group>
+            <assay_group id="g17" label="pancreas">
+                <assay technical_replicate_id="t41">ERR315479</assay>
+                <assay technical_replicate_id="t41">ERR315466</assay>
+                <assay technical_replicate_id="t61">ERR315436</assay>
+                <assay technical_replicate_id="t61">ERR315429</assay>
+            </assay_group>
+            <assay_group id="g18" label="placenta">
+                <assay>ERR315375</assay>
+                <assay technical_replicate_id="t16">ERR315478</assay>
+                <assay technical_replicate_id="t16">ERR315476</assay>
+                <assay technical_replicate_id="t25">ERR315374</assay>
+                <assay technical_replicate_id="t25">ERR315377</assay>
+                <assay technical_replicate_id="t49">ERR315336</assay>
+                <assay technical_replicate_id="t49">ERR315399</assay>
+            </assay_group>
+            <assay_group id="g19" label="prostate gland">
+                <assay>ERR315410</assay>
+                <assay technical_replicate_id="t19">ERR315330</assay>
+                <assay technical_replicate_id="t19">ERR315359</assay>
+                <assay technical_replicate_id="t63">ERR315365</assay>
+                <assay technical_replicate_id="t63">ERR315354</assay>
+                <assay technical_replicate_id="t65">ERR315407</assay>
+                <assay technical_replicate_id="t65">ERR315340</assay>
+            </assay_group>
+            <assay_group id="g20" label="rectum">
+                <assay>ERR579151</assay>
+                <assay>ERR579147</assay>
+                <assay>ERR579127</assay>
+                <assay>ERR579140</assay>
+            </assay_group>
+            <assay_group id="g21" label="saliva-secreting gland">
+                <assay technical_replicate_id="t14">ERR315420</assay>
+                <assay technical_replicate_id="t14">ERR315459</assay>
+                <assay technical_replicate_id="t44">ERR315449</assay>
+                <assay technical_replicate_id="t44">ERR315418</assay>
+                <assay technical_replicate_id="t47">ERR315325</assay>
+                <assay technical_replicate_id="t47">ERR315382</assay>
+            </assay_group>
+            <assay_group id="g22" label="skeletal muscle tissue">
+                <assay>ERR579130</assay>
+                <assay>ERR579141</assay>
+                <assay>ERR579149</assay>
+                <assay>ERR579152</assay>
+                <assay>ERR579143</assay>
+                <assay>ERR579142</assay>
+            </assay_group>
+            <assay_group id="g23" label="small intestine">
+                <assay technical_replicate_id="t29">ERR315344</assay>
+                <assay technical_replicate_id="t29">ERR315419</assay>
+                <assay technical_replicate_id="t34">ERR315364</assay>
+                <assay technical_replicate_id="t34">ERR315408</assay>
+                <assay technical_replicate_id="t58">ERR315409</assay>
+                <assay technical_replicate_id="t58">ERR315423</assay>
+                <assay technical_replicate_id="t9">ERR315388</assay>
+                <assay technical_replicate_id="t9">ERR315381</assay>
+            </assay_group>
+            <assay_group id="g24" label="smooth muscle tissue">
+                <assay>ERR579131</assay>
+                <assay>ERR579153</assay>
+                <assay>ERR579125</assay>
+            </assay_group>
+            <assay_group id="g25" label="spleen">
+                <assay>ERR315473</assay>
+                <assay>ERR315448</assay>
+                <assay>ERR315338</assay>
+                <assay technical_replicate_id="t51">ERR315405</assay>
+                <assay technical_replicate_id="t51">ERR315416</assay>
+            </assay_group>
+            <assay_group id="g26" label="stomach">
+                <assay>ERR315467</assay>
+                <assay>ERR315379</assay>
+                <assay technical_replicate_id="t8">ERR315485</assay>
+                <assay technical_replicate_id="t8">ERR315369</assay>
+            </assay_group>
+            <assay_group id="g27" label="testis">
+                <assay>ERR315492</assay>
+                <assay>ERR315446</assay>
+                <assay>ERR315352</assay>
+                <assay>ERR315456</assay>
+                <assay>ERR315415</assay>
+                <assay>ERR315391</assay>
+                <assay technical_replicate_id="t24">ERR315351</assay>
+                <assay technical_replicate_id="t24">ERR315350</assay>
+            </assay_group>
+            <assay_group id="g28" label="thyroid gland">
+                <assay technical_replicate_id="t28">ERR315397</assay>
+                <assay technical_replicate_id="t28">ERR315483</assay>
+                <assay technical_replicate_id="t28">ERR315491</assay>
+                <assay technical_replicate_id="t50">ERR315358</assay>
+                <assay technical_replicate_id="t50">ERR315422</assay>
+                <assay technical_replicate_id="t55">ERR315337</assay>
+                <assay technical_replicate_id="t55">ERR315412</assay>
+                <assay technical_replicate_id="t62">ERR315363</assay>
+                <assay technical_replicate_id="t62">ERR315428</assay>
+            </assay_group>
+            <assay_group id="g29" label="tonsil">
+                <assay>ERR579135</assay>
+                <assay>ERR579139</assay>
+                <assay>ERR579133</assay>
+            </assay_group>
+            <assay_group id="g30" label="urinary bladder">
+                <assay technical_replicate_id="t21">ERR315453</assay>
+                <assay technical_replicate_id="t21">ERR315447</assay>
+                <assay technical_replicate_id="t21">ERR315334</assay>
+                <assay technical_replicate_id="t36">ERR315355</assay>
+                <assay technical_replicate_id="t36">ERR315421</assay>
+                <assay technical_replicate_id="t36">ERR315370</assay>
+            </assay_group>
+            <assay_group id="g31" label="vermiform appendix">
+                <assay technical_replicate_id="t22">ERR315366</assay>
+                <assay technical_replicate_id="t22">ERR315345</assay>
+                <assay technical_replicate_id="t26">ERR315465</assay>
+                <assay technical_replicate_id="t26">ERR315437</assay>
+                <assay technical_replicate_id="t43">ERR315454</assay>
+                <assay technical_replicate_id="t43">ERR315481</assay>
+            </assay_group>
+            <assay_group id="g32" label="zone of skin">
+                <assay technical_replicate_id="t42">ERR315401</assay>
+                <assay technical_replicate_id="t42">ERR315464</assay>
+                <assay technical_replicate_id="t57">ERR315372</assay>
+                <assay technical_replicate_id="t57">ERR315460</assay>
+                <assay technical_replicate_id="t59">ERR315376</assay>
+                <assay technical_replicate_id="t59">ERR315339</assay>
+            </assay_group>
+        </assay_groups>
+    </analytics>
+</configuration>
