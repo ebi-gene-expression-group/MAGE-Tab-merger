@@ -562,7 +562,13 @@ class SDRF(object):
                     node_obj = n
 
         if not node_obj:
-            print(f"WARNING {node} node or node subfield specified not found... skipping prepending {value}")
+            if comment_name:
+                print(
+                    f"WARNING {node} node or node comment {comment_name} specified not found... "
+                    f"skipping prepending value {value} to that node.")
+            else:
+                print(
+                    f"WARNING {node} node specified not found... skipping prepending value {value} to than node.")
             return
 
         if change_empty:

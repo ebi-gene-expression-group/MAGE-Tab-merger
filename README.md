@@ -29,7 +29,7 @@ optional arguments:
   -d DIRECTORY_WITH_SDRFS, --directory-with-sdrfs DIRECTORY_WITH_SDRFS
                         Directory with SDRFs to merge
   -o OUTPUT, --output OUTPUT
-                        Path for output sdrf.
+                        File path for output SDRF (not a directory path)..
   --accessions-file ACCESSIONS_FILE
                         File with comma separated list of accessions to use only. Overrides accessions list.
   -a ACCESSIONS_LIST, --accessions-list ACCESSIONS_LIST

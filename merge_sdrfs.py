@@ -13,7 +13,7 @@ arg_parser.add_argument('-d', '--directory-with-sdrfs',
                         help="Directory with SDRFs to merge"
                         )
 arg_parser.add_argument('-o', '--output', required=True,
-                        help="Path for output sdrf."
+                        help="File path for output SDRF (not a directory path)."
                         )
 arg_parser.add_argument('--accessions-file', required=False,
                         help="File with comma separated list of accessions to use only. "
