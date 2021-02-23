@@ -29,7 +29,7 @@ optional arguments:
   -d DIRECTORY_WITH_SDRFS, --directory-with-sdrfs DIRECTORY_WITH_SDRFS
                         Directory with SDRFs to merge
   -o OUTPUT, --output OUTPUT
-                        Path for output sdrf.
+                        File path for output SDRF (not a directory path)..
   --accessions-file ACCESSIONS_FILE
                         File with comma separated list of accessions to use only. Overrides accessions list.
   -a ACCESSIONS_LIST, --accessions-list ACCESSIONS_LIST
@@ -90,5 +90,34 @@ then the `--covariate-skip-values` allows to skip such values from the graph cre
 
 If you need an SDRF with the equivalent merged content, then use the first script listed here limited to the accessions
 that where selected by this process.
+
+## Merge assay groups XMLs for baseline experiments
+
+In Expression Atlas MAGE-Tab files are often accompanied by XML files that encode
+relations between assay groups. For baseline studies, these are generated from the SDRF. For loading merged studies,
+a merged XML config file is needed (as with any baseline experiment).
+
+Given a set of configuration XML files, named as <ACCESSION>-configuration.xml and a set of accessions,
+the following can be run to merge them into a single XML:
+
+```
+usage: merge_baseline_configuration_xmls.py [-h] -x DIRECTORY_WITH_CONFIGURATION_FILES
+                                            [--accessions-file ACCESSIONS_FILE] [-a ACCESSIONS_LIST] -o
+                                            OUTPUT -n NEW_ACCESSION
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -x DIRECTORY_WITH_CONFIGURATION_FILES, --directory-with-configuration-files DIRECTORY_WITH_CONFIGURATION_FILES
+                        Directory with configuration XMLs to merge
+  --accessions-file ACCESSIONS_FILE
+                        File with comma separated list of accessions to use only. Overrides accessions
+                        list.
+  -a ACCESSIONS_LIST, --accessions-list ACCESSIONS_LIST
+                        Comma-separated list of accessions to use only.
+  -o OUTPUT, --output OUTPUT
+                        Path for output. <new-accession>-configuration.xml will be created there.
+  -n NEW_ACCESSION, --new-accession NEW_ACCESSION
+                        New accession for the output
+```
 
 

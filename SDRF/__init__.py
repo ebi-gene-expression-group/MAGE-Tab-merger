@@ -209,6 +209,9 @@ class SDRFColumn(object):
         :return: true if merged
         """
         if outer == self:
+            # Note that the equals method for SDRFColumn is overridden
+            # to depend only on the name and type of the column, not that
+            # it is the same object in memory.
             original_size = self.column_data.size
             self.column_data = self.column_data.append(outer.column_data, ignore_index=True)
 
@@ -559,7 +562,13 @@ class SDRF(object):
                     node_obj = n
 
         if not node_obj:
-            print(f"WARNING {node} node or node subfield specified not found... skipping prepending {value}")
+            if comment_name:
+                print(
+                    f"WARNING {node} node or node comment {comment_name} specified not found... "
+                    f"skipping prepending value {value} to that node.")
+            else:
+                print(
+                    f"WARNING {node} node specified not found... skipping prepending value {value} to than node.")
             return
 
         if change_empty:
