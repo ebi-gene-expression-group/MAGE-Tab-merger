@@ -3,7 +3,7 @@
 import xml.etree.ElementTree as ET
 import argparse
 import os.path
-from test_util import get_test_fname
+from test_util import get_test_fname, get_test_path
 
 arg_parser = argparse.ArgumentParser()
 
