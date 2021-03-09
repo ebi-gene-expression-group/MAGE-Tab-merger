@@ -1,4 +1,5 @@
-![pypi](https://img.shields.io/pypi/v/all_badge.svg)
+![PyPI](https://img.shields.io/pypi/v/MAGE-Tab-merger)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ebi-gene-expression-group/MAGE-Tab-merger/Python%20CI)
 
 # MAGE-Tab Merger
 
