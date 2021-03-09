@@ -68,7 +68,7 @@ def merge_data(sample_accession_table, join_type, index_col, input_path, file_su
 if __name__ == '__main__':
     arg_parser = argparse.ArgumentParser(
         description="Merges data where samples are in columns, based on samples listed in the condensed SDRF given.",
-        epilog="Assumes that the accessions are under characteristic - study to make the sample to accession link."
+        epilog="Assumes that the accessions are under characteristic - study to make the sample to accession link. "
                "Data files need to be available at <input-path>/<accession><suffix>")
 
     arg_parser.add_argument('-d', '--input-path',
