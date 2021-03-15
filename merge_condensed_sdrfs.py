@@ -35,6 +35,7 @@ args = arg_parser.parse_args()
 
 
 def merged_condensed(accessions, input_path, batch_type, batch_characteristic, new_accession):
+    cond_cols = ['Accession', 'Array', 'Sample', 'Annot_type', 'Annot', 'Annot_value', 'Annot_ont_URI']
     cond = pd.DataFrame()
     for acc in accessions:
         print("Parsing {} condensed SDRF..".format(acc))

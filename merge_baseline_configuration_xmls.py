@@ -3,6 +3,7 @@
 import xml.etree.ElementTree as ET
 import argparse
 import os.path
+from test_util import get_test_fname, get_test_path
 
 arg_parser = argparse.ArgumentParser()
 
@@ -24,17 +25,6 @@ arg_parser.add_argument('-o', '--output', required=True,
 arg_parser.add_argument('-n', '--new-accession', help='New accession for the output',
                         required=True)
 
-
-def _get_test_path():
-    """Returns test data path"""
-    path, name = os.path.split(__file__)
-    return os.path.join(path, 'test-data')
-
-def _get_test_fname(fname):
-    """Returns test data filename"""
-    path = _get_test_path()
-    full_path = os.path.join(path, fname)
-    return full_path
 
 def baseline_xml_configuration_skeleton():
     """
@@ -59,7 +49,7 @@ def get_assay_groups(path):
 
     :param path: to the configuration XML file.
     :return: list of all "assay_group" XML ET Elements.
-    >>> assay_groups = get_assay_groups(_get_test_fname("E-MTAB-513-configuration.xml"))
+    >>> assay_groups = get_assay_groups(get_test_fname("E-MTAB-513-configuration.xml"))
     >>> len(list(assay_groups)) == 16
     True
     """
@@ -94,7 +84,7 @@ def add_assay_groups_from_accession(path, accession, assay_groups: ET.Element, c
     :return:
     >>> ag = ET.Element("assay_groups")
     >>> accession = "E-MTAB-2836"
-    >>> path = _get_test_path()
+    >>> path = get_test_path()
     >>> add_assay_groups_from_accession(path, accession, ag)
     32
     >>> children = [x for x in ag]

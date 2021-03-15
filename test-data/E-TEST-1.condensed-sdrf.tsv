@@ -1,0 +1,150 @@
+E-CURD-1		ERR274309	characteristic	age	not available
+E-CURD-1		ERR274309	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-CURD-1		ERR274309	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-CURD-1		ERR274309	characteristic	genotype	wild type genotype
+E-CURD-1		ERR274309	characteristic	growth condition	10/14 h light/dark period and a light intensity of 120 umol m-2s-1
+E-CURD-1		ERR274309	characteristic	individual	11
+E-CURD-1		ERR274309	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-CURD-1		ERR274309	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-CURD-1		ERR274309	characteristic	study	E-MTAB-1668
+E-CURD-1		ERR274309	factor	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-CURD-1		ERR274309	factor	growth condition	10/14 h light/dark period and a light intensity of 120 umol m-2s-1
+E-CURD-1		ERR274309	factor	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-CURD-1		ERR274309	factor	study	E-MTAB-1668
+E-CURD-1		ERR274310	characteristic	age	not available
+E-CURD-1		ERR274310	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-CURD-1		ERR274310	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-CURD-1		ERR274310	characteristic	genotype	wild type genotype
+E-CURD-1		ERR274310	characteristic	growth condition	10/14 h light/dark period and a light intensity of 120 umol m-2s-1
+E-CURD-1		ERR274310	characteristic	individual	12
+E-CURD-1		ERR274310	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-CURD-1		ERR274310	characteristic	organism part	shoot	http://purl.obolibrary.org/obo/PO_0009006
+E-CURD-1		ERR274310	characteristic	study	E-MTAB-1668
+E-CURD-1		ERR274310	factor	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-CURD-1		ERR274310	factor	growth condition	10/14 h light/dark period and a light intensity of 120 umol m-2s-1
+E-CURD-1		ERR274310	factor	organism part	shoot	http://purl.obolibrary.org/obo/PO_0009006
+E-CURD-1		ERR274310	factor	study	E-MTAB-1668
+E-CURD-1		SRR070570	characteristic	age	4 day
+E-CURD-1		SRR070570	characteristic	developmental stage	seedling	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-1		SRR070570	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-CURD-1		SRR070570	characteristic	genotype	wild type genotype
+E-CURD-1		SRR070570	characteristic	growth condition	continuous light regimen	http://purl.obolibrary.org/obo/EO_0007162
+E-CURD-1		SRR070570	characteristic	individual	117
+E-CURD-1		SRR070570	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-CURD-1		SRR070570	characteristic	organism part	whole organism	http://purl.obolibrary.org/obo/UBERON_0000468
+E-CURD-1		SRR070570	characteristic	study	E-GEOD-24970
+E-CURD-1		SRR070570	factor	developmental stage	seedling	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-1		SRR070570	factor	growth condition	continuous light regimen	http://purl.obolibrary.org/obo/EO_0007162
+E-CURD-1		SRR070570	factor	organism part	whole organism	http://purl.obolibrary.org/obo/UBERON_0000468
+E-CURD-1		SRR070570	factor	study	E-GEOD-24970
+E-CURD-1		SRR070571	characteristic	age	4 day
+E-CURD-1		SRR070571	characteristic	developmental stage	seedling	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-1		SRR070571	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-CURD-1		SRR070571	characteristic	genotype	wild type genotype
+E-CURD-1		SRR070571	characteristic	growth condition	continuous light regimen	http://purl.obolibrary.org/obo/EO_0007162
+E-CURD-1		SRR070571	characteristic	individual	117
+E-CURD-1		SRR070571	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-CURD-1		SRR070571	characteristic	organism part	whole organism	http://purl.obolibrary.org/obo/UBERON_0000468
+E-CURD-1		SRR070571	characteristic	study	E-GEOD-24970
+E-CURD-1		SRR070571	factor	developmental stage	seedling	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-1		SRR070571	factor	growth condition	continuous light regimen	http://purl.obolibrary.org/obo/EO_0007162
+E-CURD-1		SRR070571	factor	organism part	whole organism	http://purl.obolibrary.org/obo/UBERON_0000468
+E-CURD-1		SRR070571	factor	study	E-GEOD-24970
+E-CURD-1		SRR1001909	characteristic	age	10 day
+E-CURD-1		SRR1001909	characteristic	developmental stage	seedling	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-1		SRR1001909	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-CURD-1		SRR1001909	characteristic	genotype	wild type genotype
+E-CURD-1		SRR1001909	characteristic	growth condition	long day length regimen	http://purl.obolibrary.org/obo/EO_0007199
+E-CURD-1		SRR1001909	characteristic	individual	7
+E-CURD-1		SRR1001909	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-CURD-1		SRR1001909	characteristic	organism part	whole organism	http://purl.obolibrary.org/obo/UBERON_0000468
+E-CURD-1		SRR1001909	characteristic	study	E-GEOD-51119
+E-CURD-1		SRR1001909	factor	developmental stage	seedling	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-1		SRR1001909	factor	growth condition	long day length regimen	http://purl.obolibrary.org/obo/EO_0007199
+E-CURD-1		SRR1001909	factor	organism part	whole organism	http://purl.obolibrary.org/obo/UBERON_0000468
+E-CURD-1		SRR1001909	factor	study	E-GEOD-51119
+E-CURD-1		SRR1001910	characteristic	age	10 day
+E-CURD-1		SRR1001910	characteristic	developmental stage	seedling	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-1		SRR1001910	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-CURD-1		SRR1001910	characteristic	genotype	wild type genotype
+E-CURD-1		SRR1001910	characteristic	growth condition	long day length regimen	http://purl.obolibrary.org/obo/EO_0007199
+E-CURD-1		SRR1001910	characteristic	individual	6
+E-CURD-1		SRR1001910	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-CURD-1		SRR1001910	characteristic	organism part	whole organism	http://purl.obolibrary.org/obo/UBERON_0000468
+E-CURD-1		SRR1001910	characteristic	study	E-GEOD-51119
+E-CURD-1		SRR1001910	factor	developmental stage	seedling	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-1		SRR1001910	factor	growth condition	long day length regimen	http://purl.obolibrary.org/obo/EO_0007199
+E-CURD-1		SRR1001910	factor	organism part	whole organism	http://purl.obolibrary.org/obo/UBERON_0000468
+E-CURD-1		SRR1001910	factor	study	E-GEOD-51119
+E-CURD-1		SRR1019221	characteristic	age	14 day
+E-CURD-1		SRR1019221	characteristic	developmental stage	seedling	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-1		SRR1019221	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-CURD-1		SRR1019221	characteristic	genotype	wild type genotype
+E-CURD-1		SRR1019221	characteristic	growth condition	long day length regimen	http://purl.obolibrary.org/obo/EO_0007199
+E-CURD-1		SRR1019221	characteristic	individual	3
+E-CURD-1		SRR1019221	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-CURD-1		SRR1019221	characteristic	organism part	whole organism	http://purl.obolibrary.org/obo/UBERON_0000468
+E-CURD-1		SRR1019221	characteristic	study	E-GEOD-51763
+E-CURD-1		SRR1019221	factor	developmental stage	seedling	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-1		SRR1019221	factor	growth condition	long day length regimen	http://purl.obolibrary.org/obo/EO_0007199
+E-CURD-1		SRR1019221	factor	organism part	whole organism	http://purl.obolibrary.org/obo/UBERON_0000468
+E-CURD-1		SRR1019221	factor	study	E-GEOD-51763
+E-CURD-1		SRR1046909	characteristic	age	10 day
+E-CURD-1		SRR1046909	characteristic	developmental stage	seedling	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-1		SRR1046909	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-CURD-1		SRR1046909	characteristic	genotype	wild type genotype
+E-CURD-1		SRR1046909	characteristic	growth condition	long day length regimen	http://purl.obolibrary.org/obo/EO_0007199
+E-CURD-1		SRR1046909	characteristic	individual	63
+E-CURD-1		SRR1046909	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-CURD-1		SRR1046909	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-CURD-1		SRR1046909	characteristic	study	E-GEOD-53198
+E-CURD-1		SRR1046909	factor	developmental stage	seedling	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-1		SRR1046909	factor	growth condition	long day length regimen	http://purl.obolibrary.org/obo/EO_0007199
+E-CURD-1		SRR1046909	factor	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-CURD-1		SRR1046909	factor	study	E-GEOD-53198
+E-CURD-1		SRR1046910	characteristic	age	10 day
+E-CURD-1		SRR1046910	characteristic	developmental stage	seedling	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-1		SRR1046910	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-CURD-1		SRR1046910	characteristic	genotype	wild type genotype
+E-CURD-1		SRR1046910	characteristic	growth condition	long day length regimen	http://purl.obolibrary.org/obo/EO_0007199
+E-CURD-1		SRR1046910	characteristic	individual	62
+E-CURD-1		SRR1046910	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-CURD-1		SRR1046910	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-CURD-1		SRR1046910	characteristic	study	E-GEOD-53198
+E-CURD-1		SRR1046910	factor	developmental stage	seedling	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-1		SRR1046910	factor	growth condition	long day length regimen	http://purl.obolibrary.org/obo/EO_0007199
+E-CURD-1		SRR1046910	factor	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-CURD-1		SRR1046910	factor	study	E-GEOD-53198
+E-CURD-1		SRR1105822	characteristic	age	19 day
+E-CURD-1		SRR1105822	characteristic	developmental stage	seedling	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-1		SRR1105822	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-CURD-1		SRR1105822	characteristic	genotype	wild type genotype
+E-CURD-1		SRR1105822	characteristic	growth condition	long day length regimen	http://purl.obolibrary.org/obo/EO_0007199
+E-CURD-1		SRR1105822	characteristic	individual	112
+E-CURD-1		SRR1105822	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-CURD-1		SRR1105822	characteristic	organism part	rosette	http://purl.obolibrary.org/obo/PO_0025615
+E-CURD-1		SRR1105822	characteristic	study	E-MTAB-4193
+E-CURD-1		SRR1105822	factor	developmental stage	seedling	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-1		SRR1105822	factor	growth condition	long day length regimen	http://purl.obolibrary.org/obo/EO_0007199
+E-CURD-1		SRR1105822	factor	organism part	rosette	http://purl.obolibrary.org/obo/PO_0025615
+E-CURD-1		SRR1105822	factor	study	E-MTAB-4193
+E-CURD-1		SRR1105823	characteristic	age	19 day
+E-CURD-1		SRR1105823	characteristic	developmental stage	seedling	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-1		SRR1105823	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-CURD-1		SRR1105823	characteristic	genotype	wild type genotype
+E-CURD-1		SRR1105823	characteristic	growth condition	long day length regimen	http://purl.obolibrary.org/obo/EO_0007199
+E-CURD-1		SRR1105823	characteristic	individual	113
+E-CURD-1		SRR1105823	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-CURD-1		SRR1105823	characteristic	organism part	rosette	http://purl.obolibrary.org/obo/PO_0025615
+E-CURD-1		SRR1105823	characteristic	study	E-MTAB-4193
+E-CURD-1		SRR1105823	factor	developmental stage	seedling	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-1		SRR1105823	factor	growth condition	long day length regimen	http://purl.obolibrary.org/obo/EO_0007199
+E-CURD-1		SRR1105823	factor	organism part	rosette	http://purl.obolibrary.org/obo/PO_0025615
+E-CURD-1		SRR1105823	factor	study	E-MTAB-4193
+E-CURD-1		SRR1106559	characteristic	age	19 day
+E-CURD-1		SRR1106559	characteristic	developmental stage	seedling	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-1		SRR1106559	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-CURD-1		SRR1106559	characteristic	genotype	wild type genotype
+E-CURD-1		SRR1106559	characteristic	growth condition	long day length regimen	http://purl.obolibrary.org/obo/EO_0007199
+E-CURD-1		SRR1106559	characteristic	individual	111
+E-CURD-1		SRR1106559	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
