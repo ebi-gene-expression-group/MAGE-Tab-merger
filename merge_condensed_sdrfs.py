@@ -145,7 +145,8 @@ blessed_condensed = merged_condensed(accessions=chosen_batches,
                                      new_accession=args.new_accession
                                      )
 
-blessed_condensed.to_csv(path_or_buf=os.path.join(args.output, f"{args.new_accession}.condensed.sdrf.tsv"), sep="\t", index=False)
+blessed_condensed.to_csv(path_or_buf=os.path.join(args.output, f"{args.new_accession}.condensed.sdrf.tsv"), sep="\t",
+                         index=False, header=False)
 
 with open(os.path.join(args.output, f"{args.new_accession}.selected_studies.txt"), "w") as ss:
     ss.write(",".join(chosen_batches))
