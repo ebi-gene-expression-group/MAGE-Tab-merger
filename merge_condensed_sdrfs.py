@@ -4,6 +4,7 @@ import pandas as pd
 import networkx as nx
 import argparse
 import os
+from test_util import get_test_fname, get_test_path
 
 arg_parser = argparse.ArgumentParser()
 
@@ -31,10 +32,28 @@ arg_parser.add_argument('--covariate-skip-values',
                         default="", required=False
                         )
 
-args = arg_parser.parse_args()
-
-
 def merged_condensed(accessions, input_path, batch_type, batch_characteristic, new_accession):
+    """
+    Merges a set of condensed SDRFs (defined in accessions) available at <input_path>/accession/accession.condensed-sdrf.tsv,
+    adding lines for the new accession under field <batch-type>/<batch> (usually characteristic / study)
+
+    :param accessions: list of accessions to merge, they must be available within input_path
+    :param input_path: path where to find <accession>/<accession>.condensed-sdrf.tsv entries
+    :param batch_type: type of SDRF field where to put the batch, "characteristic" by default.
+    :param batch_characteristic: name for the batch field, "study" by default.
+    :param new_accession: New accession to add to the merged condensed.
+    :return: a pandas merged condensed table.
+
+    >>> accessions = ['E-GEOD-55866','E-GEOD-55482', 'E-CURD-31', 'E-GEOD-53197']
+    >>> input_path = get_test_fname("condensed-merge")
+    >>> cond_df = merged_condensed(accessions, input_path, batch_type='characteristic', batch_characteristic='study', new_accession="E-CURD-X")
+    Parsing E-GEOD-55866 condensed SDRF..
+    Parsing E-GEOD-55482 condensed SDRF..
+    Parsing E-CURD-31 condensed SDRF..
+    Parsing E-GEOD-53197 condensed SDRF..
+    >>> cond_df.shape[0]
+    873
+    """
     cond_cols = ['Accession', 'Array', 'Sample', 'Annot_type', 'Annot', 'Annot_value', 'Annot_ont_URI']
     cond = pd.DataFrame()
     for acc in accessions:
@@ -75,6 +94,15 @@ def cluster_samples(cond: pd, main_covariate: str, covariate_type: str,
     :param batch_characteristic:
     :param batch_type:
     :return:
+    >>> accessions = ['E-GEOD-55866','E-GEOD-55482', 'E-CURD-31', 'E-GEOD-53197']
+    >>> input_path = get_test_fname("condensed-merge")
+    >>> cond_df = merged_condensed(accessions, input_path, batch_type='characteristic', batch_characteristic='study', new_accession="E-CURD-X") #doctest: +ELLIPSIS
+    Parsing ...
+    >>> conn_components = cluster_samples(cond=cond_df, main_covariate="organism part", covariate_type="characteristic", batch_characteristic="study", batch_type="characteristic", covariate_skip_values=[]) #doctest: +ELLIPSIS
+    Complete list of covariates: 4 ['silique', 'aerial part', 'root', 'floral bud']
+    ...
+    >>> len(conn_components[0].nodes)
+    3
     """
     # Use unified condensed based table to produce the plot to choose batches.
     G = nx.Graph()
@@ -118,35 +146,38 @@ def cluster_samples(cond: pd, main_covariate: str, covariate_type: str,
     return conn_components
 
 
-# Initial merge of all datasets.
-# TODO it is a bit inconvenient currently that:
-# 1.- you need to provide the directory and the list
-cond = merged_condensed(accessions=args.accessions.split(","),
-                        input_path=args.input_path,
-                        batch_type=args.batch_type,
-                        batch_characteristic=args.batch,
-                        new_accession=args.new_accession
-                        )
+if __name__ == '__main__':
+    args = arg_parser.parse_args()
 
-conn_components = cluster_samples(cond=cond,
-                                  main_covariate=args.covariate,
-                                  covariate_type=args.covariate_type,
-                                  covariate_skip_values=args.covariate_skip_values,
-                                  batch_characteristic=args.batch,
-                                  batch_type=args.batch_type
-                                  )
+    # Initial merge of all datasets.
+    # TODO it is a bit inconvenient currently that:
+    # 1.- you need to provide the directory and the list
+    cond = merged_condensed(accessions=args.accessions.split(","),
+                            input_path=args.input_path,
+                            batch_type=args.batch_type,
+                            batch_characteristic=args.batch,
+                            new_accession=args.new_accession
+                            )
 
-chosen_batches = list(conn_components[0].nodes)
+    conn_components = cluster_samples(cond=cond,
+                                      main_covariate=args.covariate,
+                                      covariate_type=args.covariate_type,
+                                      covariate_skip_values=args.covariate_skip_values,
+                                      batch_characteristic=args.batch,
+                                      batch_type=args.batch_type
+                                      )
 
-blessed_condensed = merged_condensed(accessions=chosen_batches,
-                                     input_path=args.input_path,
-                                     batch_type=args.batch_type,
-                                     batch_characteristic=args.batch,
-                                     new_accession=args.new_accession
-                                     )
+    chosen_batches = list(conn_components[0].nodes)
 
-blessed_condensed.to_csv(path_or_buf=os.path.join(args.output, f"{args.new_accession}.condensed.sdrf.tsv"), sep="\t",
-                         index=False, header=False)
+    blessed_condensed = merged_condensed(accessions=chosen_batches,
+                                         input_path=args.input_path,
+                                         batch_type=args.batch_type,
+                                         batch_characteristic=args.batch,
+                                         new_accession=args.new_accession
+                                         )
 
-with open(os.path.join(args.output, f"{args.new_accession}.selected_studies.txt"), "w") as ss:
-    ss.write(",".join(chosen_batches))
+    blessed_condensed.to_csv(path_or_buf=os.path.join(args.output, f"{args.new_accession}.condensed.sdrf.tsv"), sep="\t",
+                             index=False, header=False)
+
+    with open(os.path.join(args.output, f"{args.new_accession}.selected_studies.txt"), "w") as ss:
+        ss.write(",".join(chosen_batches))

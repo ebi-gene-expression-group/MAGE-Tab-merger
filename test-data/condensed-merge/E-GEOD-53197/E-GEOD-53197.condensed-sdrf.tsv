@@ -1,0 +1,340 @@
+E-GEOD-53197		SRR1046847	characteristic	developmental stage	petal differentiation and expansion stage	http://purl.obolibrary.org/obo/PO_0007611
+E-GEOD-53197		SRR1046847	characteristic	ecotype	Bur-0	http://www.ebi.ac.uk/efo/EFO_0005170
+E-GEOD-53197		SRR1046847	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046847	characteristic	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046847	factor	ecotype	Bur-0	http://www.ebi.ac.uk/efo/EFO_0005170
+E-GEOD-53197		SRR1046847	factor	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046848	characteristic	age	10 day
+E-GEOD-53197		SRR1046848	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046848	characteristic	ecotype	Bur-0	http://www.ebi.ac.uk/efo/EFO_0005170
+E-GEOD-53197		SRR1046848	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046848	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046848	factor	ecotype	Bur-0	http://www.ebi.ac.uk/efo/EFO_0005170
+E-GEOD-53197		SRR1046848	factor	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046849	characteristic	age	11 day
+E-GEOD-53197		SRR1046849	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046849	characteristic	ecotype	Bur-0	http://www.ebi.ac.uk/efo/EFO_0005170
+E-GEOD-53197		SRR1046849	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046849	characteristic	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046849	factor	ecotype	Bur-0	http://www.ebi.ac.uk/efo/EFO_0005170
+E-GEOD-53197		SRR1046849	factor	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046850	characteristic	developmental stage	petal differentiation and expansion stage	http://purl.obolibrary.org/obo/PO_0007611
+E-GEOD-53197		SRR1046850	characteristic	ecotype	Ct-1	http://www.ebi.ac.uk/efo/EFO_0006982
+E-GEOD-53197		SRR1046850	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046850	characteristic	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046850	factor	ecotype	Ct-1	http://www.ebi.ac.uk/efo/EFO_0006982
+E-GEOD-53197		SRR1046850	factor	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046851	characteristic	age	10 day
+E-GEOD-53197		SRR1046851	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046851	characteristic	ecotype	Ct-1	http://www.ebi.ac.uk/efo/EFO_0006982
+E-GEOD-53197		SRR1046851	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046851	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046851	factor	ecotype	Ct-1	http://www.ebi.ac.uk/efo/EFO_0006982
+E-GEOD-53197		SRR1046851	factor	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046852	characteristic	age	11 day
+E-GEOD-53197		SRR1046852	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046852	characteristic	ecotype	Ct-1	http://www.ebi.ac.uk/efo/EFO_0006982
+E-GEOD-53197		SRR1046852	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046852	characteristic	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046852	factor	ecotype	Ct-1	http://www.ebi.ac.uk/efo/EFO_0006982
+E-GEOD-53197		SRR1046852	factor	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046853	characteristic	developmental stage	petal differentiation and expansion stage	http://purl.obolibrary.org/obo/PO_0007611
+E-GEOD-53197		SRR1046853	characteristic	ecotype	Edi-0
+E-GEOD-53197		SRR1046853	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046853	characteristic	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046853	factor	ecotype	Edi-0
+E-GEOD-53197		SRR1046853	factor	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046854	characteristic	age	10 day
+E-GEOD-53197		SRR1046854	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046854	characteristic	ecotype	Edi-0
+E-GEOD-53197		SRR1046854	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046854	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046854	factor	ecotype	Edi-0
+E-GEOD-53197		SRR1046854	factor	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046855	characteristic	age	11 day
+E-GEOD-53197		SRR1046855	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046855	characteristic	ecotype	Edi-0
+E-GEOD-53197		SRR1046855	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046855	characteristic	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046855	factor	ecotype	Edi-0
+E-GEOD-53197		SRR1046855	factor	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046856	characteristic	developmental stage	petal differentiation and expansion stage	http://purl.obolibrary.org/obo/PO_0007611
+E-GEOD-53197		SRR1046856	characteristic	ecotype	Hi-0	http://www.ebi.ac.uk/efo/EFO_0006980
+E-GEOD-53197		SRR1046856	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046856	characteristic	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046856	factor	ecotype	Hi-0	http://www.ebi.ac.uk/efo/EFO_0006980
+E-GEOD-53197		SRR1046856	factor	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046857	characteristic	age	10 day
+E-GEOD-53197		SRR1046857	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046857	characteristic	ecotype	Hi-0	http://www.ebi.ac.uk/efo/EFO_0006980
+E-GEOD-53197		SRR1046857	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046857	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046857	factor	ecotype	Hi-0	http://www.ebi.ac.uk/efo/EFO_0006980
+E-GEOD-53197		SRR1046857	factor	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046858	characteristic	age	11 day
+E-GEOD-53197		SRR1046858	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046858	characteristic	ecotype	Hi-0	http://www.ebi.ac.uk/efo/EFO_0006980
+E-GEOD-53197		SRR1046858	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046858	characteristic	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046858	factor	ecotype	Hi-0	http://www.ebi.ac.uk/efo/EFO_0006980
+E-GEOD-53197		SRR1046858	factor	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046859	characteristic	developmental stage	petal differentiation and expansion stage	http://purl.obolibrary.org/obo/PO_0007611
+E-GEOD-53197		SRR1046859	characteristic	ecotype	Kn-0	http://www.ebi.ac.uk/efo/EFO_0006978
+E-GEOD-53197		SRR1046859	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046859	characteristic	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046859	factor	ecotype	Kn-0	http://www.ebi.ac.uk/efo/EFO_0006978
+E-GEOD-53197		SRR1046859	factor	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046860	characteristic	age	10 day
+E-GEOD-53197		SRR1046860	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046860	characteristic	ecotype	Kn-0	http://www.ebi.ac.uk/efo/EFO_0006978
+E-GEOD-53197		SRR1046860	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046860	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046860	factor	ecotype	Kn-0	http://www.ebi.ac.uk/efo/EFO_0006978
+E-GEOD-53197		SRR1046860	factor	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046861	characteristic	age	11 day
+E-GEOD-53197		SRR1046861	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046861	characteristic	ecotype	Kn-0	http://www.ebi.ac.uk/efo/EFO_0006978
+E-GEOD-53197		SRR1046861	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046861	characteristic	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046861	factor	ecotype	Kn-0	http://www.ebi.ac.uk/efo/EFO_0006978
+E-GEOD-53197		SRR1046861	factor	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046862	characteristic	developmental stage	petal differentiation and expansion stage	http://purl.obolibrary.org/obo/PO_0007611
+E-GEOD-53197		SRR1046862	characteristic	ecotype	Ler-0	http://www.ebi.ac.uk/efo/EFO_0005154
+E-GEOD-53197		SRR1046862	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046862	characteristic	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046862	factor	ecotype	Ler-0	http://www.ebi.ac.uk/efo/EFO_0005154
+E-GEOD-53197		SRR1046862	factor	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046863	characteristic	age	10 day
+E-GEOD-53197		SRR1046863	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046863	characteristic	ecotype	Ler-0	http://www.ebi.ac.uk/efo/EFO_0005154
+E-GEOD-53197		SRR1046863	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046863	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046863	factor	ecotype	Ler-0	http://www.ebi.ac.uk/efo/EFO_0005154
+E-GEOD-53197		SRR1046863	factor	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046864	characteristic	age	11 day
+E-GEOD-53197		SRR1046864	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046864	characteristic	ecotype	Ler-0	http://www.ebi.ac.uk/efo/EFO_0005154
+E-GEOD-53197		SRR1046864	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046864	characteristic	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046864	factor	ecotype	Ler-0	http://www.ebi.ac.uk/efo/EFO_0005154
+E-GEOD-53197		SRR1046864	factor	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046865	characteristic	developmental stage	petal differentiation and expansion stage	http://purl.obolibrary.org/obo/PO_0007611
+E-GEOD-53197		SRR1046865	characteristic	ecotype	Mt-0	http://www.ebi.ac.uk/efo/EFO_0006962
+E-GEOD-53197		SRR1046865	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046865	characteristic	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046865	factor	ecotype	Mt-0	http://www.ebi.ac.uk/efo/EFO_0006962
+E-GEOD-53197		SRR1046865	factor	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046866	characteristic	age	10 day
+E-GEOD-53197		SRR1046866	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046866	characteristic	ecotype	Mt-0	http://www.ebi.ac.uk/efo/EFO_0006962
+E-GEOD-53197		SRR1046866	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046866	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046866	factor	ecotype	Mt-0	http://www.ebi.ac.uk/efo/EFO_0006962
+E-GEOD-53197		SRR1046866	factor	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046867	characteristic	age	11 day
+E-GEOD-53197		SRR1046867	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046867	characteristic	ecotype	Mt-0	http://www.ebi.ac.uk/efo/EFO_0006962
+E-GEOD-53197		SRR1046867	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046867	characteristic	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046867	factor	ecotype	Mt-0	http://www.ebi.ac.uk/efo/EFO_0006962
+E-GEOD-53197		SRR1046867	factor	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046868	characteristic	developmental stage	petal differentiation and expansion stage	http://purl.obolibrary.org/obo/PO_0007611
+E-GEOD-53197		SRR1046868	characteristic	ecotype	No-0	http://www.ebi.ac.uk/efo/EFO_0006976
+E-GEOD-53197		SRR1046868	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046868	characteristic	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046868	factor	ecotype	No-0	http://www.ebi.ac.uk/efo/EFO_0006976
+E-GEOD-53197		SRR1046868	factor	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046869	characteristic	age	10 day
+E-GEOD-53197		SRR1046869	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046869	characteristic	ecotype	No-0	http://www.ebi.ac.uk/efo/EFO_0006976
+E-GEOD-53197		SRR1046869	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046869	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046869	factor	ecotype	No-0	http://www.ebi.ac.uk/efo/EFO_0006976
+E-GEOD-53197		SRR1046869	factor	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046870	characteristic	age	11 day
+E-GEOD-53197		SRR1046870	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046870	characteristic	ecotype	No-0	http://www.ebi.ac.uk/efo/EFO_0006976
+E-GEOD-53197		SRR1046870	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046870	characteristic	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046870	factor	ecotype	No-0	http://www.ebi.ac.uk/efo/EFO_0006976
+E-GEOD-53197		SRR1046870	factor	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046871	characteristic	developmental stage	petal differentiation and expansion stage	http://purl.obolibrary.org/obo/PO_0007611
+E-GEOD-53197		SRR1046871	characteristic	ecotype	Oy-0	http://www.ebi.ac.uk/efo/EFO_0006974
+E-GEOD-53197		SRR1046871	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046871	characteristic	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046871	factor	ecotype	Oy-0	http://www.ebi.ac.uk/efo/EFO_0006974
+E-GEOD-53197		SRR1046871	factor	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046872	characteristic	age	10 day
+E-GEOD-53197		SRR1046872	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046872	characteristic	ecotype	Oy-0	http://www.ebi.ac.uk/efo/EFO_0006974
+E-GEOD-53197		SRR1046872	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046872	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046872	factor	ecotype	Oy-0	http://www.ebi.ac.uk/efo/EFO_0006974
+E-GEOD-53197		SRR1046872	factor	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046873	characteristic	age	11 day
+E-GEOD-53197		SRR1046873	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046873	characteristic	ecotype	Oy-0	http://www.ebi.ac.uk/efo/EFO_0006974
+E-GEOD-53197		SRR1046873	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046873	characteristic	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046873	factor	ecotype	Oy-0	http://www.ebi.ac.uk/efo/EFO_0006974
+E-GEOD-53197		SRR1046873	factor	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046874	characteristic	developmental stage	petal differentiation and expansion stage	http://purl.obolibrary.org/obo/PO_0007611
+E-GEOD-53197		SRR1046874	characteristic	ecotype	Po-0	http://www.ebi.ac.uk/efo/EFO_0006972
+E-GEOD-53197		SRR1046874	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046874	characteristic	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046874	factor	ecotype	Po-0	http://www.ebi.ac.uk/efo/EFO_0006972
+E-GEOD-53197		SRR1046874	factor	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046875	characteristic	age	10 day
+E-GEOD-53197		SRR1046875	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046875	characteristic	ecotype	Po-0	http://www.ebi.ac.uk/efo/EFO_0006972
+E-GEOD-53197		SRR1046875	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046875	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046875	factor	ecotype	Po-0	http://www.ebi.ac.uk/efo/EFO_0006972
+E-GEOD-53197		SRR1046875	factor	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046876	characteristic	age	11 day
+E-GEOD-53197		SRR1046876	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046876	characteristic	ecotype	Po-0	http://www.ebi.ac.uk/efo/EFO_0006972
+E-GEOD-53197		SRR1046876	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046876	characteristic	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046876	factor	ecotype	Po-0	http://www.ebi.ac.uk/efo/EFO_0006972
+E-GEOD-53197		SRR1046876	factor	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046877	characteristic	developmental stage	petal differentiation and expansion stage	http://purl.obolibrary.org/obo/PO_0007611
+E-GEOD-53197		SRR1046877	characteristic	ecotype	Rsch-4
+E-GEOD-53197		SRR1046877	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046877	characteristic	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046877	factor	ecotype	Rsch-4
+E-GEOD-53197		SRR1046877	factor	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046878	characteristic	age	10 day
+E-GEOD-53197		SRR1046878	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046878	characteristic	ecotype	Rsch-4
+E-GEOD-53197		SRR1046878	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046878	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046878	factor	ecotype	Rsch-4
+E-GEOD-53197		SRR1046878	factor	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046879	characteristic	age	11 day
+E-GEOD-53197		SRR1046879	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046879	characteristic	ecotype	Rsch-4
+E-GEOD-53197		SRR1046879	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046879	characteristic	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046879	factor	ecotype	Rsch-4
+E-GEOD-53197		SRR1046879	factor	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046880	characteristic	developmental stage	petal differentiation and expansion stage	http://purl.obolibrary.org/obo/PO_0007611
+E-GEOD-53197		SRR1046880	characteristic	ecotype	Sf-2	http://www.ebi.ac.uk/efo/EFO_0006970
+E-GEOD-53197		SRR1046880	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046880	characteristic	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046880	factor	ecotype	Sf-2	http://www.ebi.ac.uk/efo/EFO_0006970
+E-GEOD-53197		SRR1046880	factor	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046881	characteristic	age	10 day
+E-GEOD-53197		SRR1046881	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046881	characteristic	ecotype	Sf-2	http://www.ebi.ac.uk/efo/EFO_0006970
+E-GEOD-53197		SRR1046881	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046881	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046881	factor	ecotype	Sf-2	http://www.ebi.ac.uk/efo/EFO_0006970
+E-GEOD-53197		SRR1046881	factor	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046882	characteristic	age	11 day
+E-GEOD-53197		SRR1046882	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046882	characteristic	ecotype	Sf-2	http://www.ebi.ac.uk/efo/EFO_0006970
+E-GEOD-53197		SRR1046882	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046882	characteristic	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046882	factor	ecotype	Sf-2	http://www.ebi.ac.uk/efo/EFO_0006970
+E-GEOD-53197		SRR1046882	factor	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046883	characteristic	developmental stage	petal differentiation and expansion stage	http://purl.obolibrary.org/obo/PO_0007611
+E-GEOD-53197		SRR1046883	characteristic	ecotype	Tsu-0
+E-GEOD-53197		SRR1046883	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046883	characteristic	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046883	factor	ecotype	Tsu-0
+E-GEOD-53197		SRR1046883	factor	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046884	characteristic	age	10 day
+E-GEOD-53197		SRR1046884	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046884	characteristic	ecotype	Tsu-0
+E-GEOD-53197		SRR1046884	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046884	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046884	factor	ecotype	Tsu-0
+E-GEOD-53197		SRR1046884	factor	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046885	characteristic	age	11 day
+E-GEOD-53197		SRR1046885	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046885	characteristic	ecotype	Tsu-0
+E-GEOD-53197		SRR1046885	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046885	characteristic	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046885	factor	ecotype	Tsu-0
+E-GEOD-53197		SRR1046885	factor	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046886	characteristic	developmental stage	petal differentiation and expansion stage	http://purl.obolibrary.org/obo/PO_0007611
+E-GEOD-53197		SRR1046886	characteristic	ecotype	Wil-2
+E-GEOD-53197		SRR1046886	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046886	characteristic	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046886	factor	ecotype	Wil-2
+E-GEOD-53197		SRR1046886	factor	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046887	characteristic	age	10 day
+E-GEOD-53197		SRR1046887	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046887	characteristic	ecotype	Wil-2
+E-GEOD-53197		SRR1046887	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046887	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046887	factor	ecotype	Wil-2
+E-GEOD-53197		SRR1046887	factor	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046888	characteristic	age	11 day
+E-GEOD-53197		SRR1046888	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046888	characteristic	ecotype	Wil-2
+E-GEOD-53197		SRR1046888	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046888	characteristic	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046888	factor	ecotype	Wil-2
+E-GEOD-53197		SRR1046888	factor	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046889	characteristic	developmental stage	petal differentiation and expansion stage	http://purl.obolibrary.org/obo/PO_0007611
+E-GEOD-53197		SRR1046889	characteristic	ecotype	Ws-0	http://www.ebi.ac.uk/efo/EFO_0005156
+E-GEOD-53197		SRR1046889	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046889	characteristic	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046889	factor	ecotype	Ws-0	http://www.ebi.ac.uk/efo/EFO_0005156
+E-GEOD-53197		SRR1046889	factor	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046890	characteristic	age	10 day
+E-GEOD-53197		SRR1046890	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046890	characteristic	ecotype	Ws-0	http://www.ebi.ac.uk/efo/EFO_0005156
+E-GEOD-53197		SRR1046890	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046890	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046890	factor	ecotype	Ws-0	http://www.ebi.ac.uk/efo/EFO_0005156
+E-GEOD-53197		SRR1046890	factor	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046891	characteristic	age	11 day
+E-GEOD-53197		SRR1046891	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046891	characteristic	ecotype	Ws-0	http://www.ebi.ac.uk/efo/EFO_0005156
+E-GEOD-53197		SRR1046891	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046891	characteristic	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046891	factor	ecotype	Ws-0	http://www.ebi.ac.uk/efo/EFO_0005156
+E-GEOD-53197		SRR1046891	factor	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046892	characteristic	developmental stage	petal differentiation and expansion stage	http://purl.obolibrary.org/obo/PO_0007611
+E-GEOD-53197		SRR1046892	characteristic	ecotype	Wu-0
+E-GEOD-53197		SRR1046892	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046892	characteristic	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046892	factor	ecotype	Wu-0
+E-GEOD-53197		SRR1046892	factor	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046893	characteristic	age	10 day
+E-GEOD-53197		SRR1046893	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046893	characteristic	ecotype	Wu-0
+E-GEOD-53197		SRR1046893	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046893	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046893	factor	ecotype	Wu-0
+E-GEOD-53197		SRR1046893	factor	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046894	characteristic	age	11 day
+E-GEOD-53197		SRR1046894	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046894	characteristic	ecotype	Wu-0
+E-GEOD-53197		SRR1046894	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046894	characteristic	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046894	factor	ecotype	Wu-0
+E-GEOD-53197		SRR1046894	factor	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046895	characteristic	developmental stage	petal differentiation and expansion stage	http://purl.obolibrary.org/obo/PO_0007611
+E-GEOD-53197		SRR1046895	characteristic	ecotype	Zu-0
+E-GEOD-53197		SRR1046895	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046895	characteristic	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046895	factor	ecotype	Zu-0
+E-GEOD-53197		SRR1046895	factor	organism part	floral bud	http://purl.obolibrary.org/obo/PO_0000056
+E-GEOD-53197		SRR1046896	characteristic	age	10 day
+E-GEOD-53197		SRR1046896	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046896	characteristic	ecotype	Zu-0
+E-GEOD-53197		SRR1046896	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046896	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046896	factor	ecotype	Zu-0
+E-GEOD-53197		SRR1046896	factor	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-GEOD-53197		SRR1046897	characteristic	age	11 day
+E-GEOD-53197		SRR1046897	characteristic	developmental stage	LP.04 four leaves visible stage	http://purl.obolibrary.org/obo/PO_0007115
+E-GEOD-53197		SRR1046897	characteristic	ecotype	Zu-0
+E-GEOD-53197		SRR1046897	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-53197		SRR1046897	characteristic	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901
+E-GEOD-53197		SRR1046897	factor	ecotype	Zu-0
+E-GEOD-53197		SRR1046897	factor	organism part	aerial part	http://www.ebi.ac.uk/efo/EFO_0001901

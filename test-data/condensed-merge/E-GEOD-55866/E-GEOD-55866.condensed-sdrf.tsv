@@ -1,0 +1,28 @@
+E-GEOD-55866		SRR1190492	characteristic	developmental stage	0 to 5 day post-anthesis
+E-GEOD-55866		SRR1190492	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-GEOD-55866		SRR1190492	characteristic	genotype	wild type
+E-GEOD-55866		SRR1190492	characteristic	growth condition	long day length regimen	http://purl.obolibrary.org/obo/EO_0007199
+E-GEOD-55866		SRR1190492	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-55866		SRR1190492	characteristic	organism part	silique	http://purl.obolibrary.org/obo/PO_0030106
+E-GEOD-55866		SRR1190492	factor	developmental stage	0 to 5 day post-anthesis
+E-GEOD-55866		SRR1190493	characteristic	developmental stage	6 to 10 day post-anthesis
+E-GEOD-55866		SRR1190493	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-GEOD-55866		SRR1190493	characteristic	genotype	wild type
+E-GEOD-55866		SRR1190493	characteristic	growth condition	long day length regimen	http://purl.obolibrary.org/obo/EO_0007199
+E-GEOD-55866		SRR1190493	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-55866		SRR1190493	characteristic	organism part	silique	http://purl.obolibrary.org/obo/PO_0030106
+E-GEOD-55866		SRR1190493	factor	developmental stage	6 to 10 day post-anthesis
+E-GEOD-55866		SRR1190494	characteristic	developmental stage	11 to 15 day post-anthesis
+E-GEOD-55866		SRR1190494	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-GEOD-55866		SRR1190494	characteristic	genotype	wild type
+E-GEOD-55866		SRR1190494	characteristic	growth condition	long day length regimen	http://purl.obolibrary.org/obo/EO_0007199
+E-GEOD-55866		SRR1190494	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-55866		SRR1190494	characteristic	organism part	silique	http://purl.obolibrary.org/obo/PO_0030106
+E-GEOD-55866		SRR1190494	factor	developmental stage	11 to 15 day post-anthesis
+E-GEOD-55866		SRR1190495	characteristic	developmental stage	16 to 20 day post-anthesis
+E-GEOD-55866		SRR1190495	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-GEOD-55866		SRR1190495	characteristic	genotype	wild type
+E-GEOD-55866		SRR1190495	characteristic	growth condition	long day length regimen	http://purl.obolibrary.org/obo/EO_0007199
+E-GEOD-55866		SRR1190495	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-GEOD-55866		SRR1190495	characteristic	organism part	silique	http://purl.obolibrary.org/obo/PO_0030106
+E-GEOD-55866		SRR1190495	factor	developmental stage	16 to 20 day post-anthesis
