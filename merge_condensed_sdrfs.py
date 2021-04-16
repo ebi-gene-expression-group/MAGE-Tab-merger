@@ -128,20 +128,37 @@ def cluster_samples(cond: pd, main_covariate: str, covariate_type: str,
                     G.edges[batches[i], batches[j]]['covariate'].update([cov])
                 else:
                     G.add_edge(batches[i], batches[j], covariate=set([cov]))
+
     conn_components = [G.subgraph(c).copy() for c in nx.connected_components(G)]
-    print("Number of connected components: {}".format(str(len(conn_components))))
-    largest_conn_comp = max(conn_components, key=len)
-    print("Largest connected component size: {}".format(str(len(largest_conn_comp))))
-    conn_components.sort(key=len, reverse=True)
-    for cc in conn_components:
-        print("CC number of batches: {}".format(str(len(cc))))
-        print("CC batches: {}".format(cc.nodes))
-        covariates_cc = set()
-        for edge_cov in cc.edges.data('covariate'):
-            covariates_cc.update(edge_cov[2])
-        print("CC number of covariates: {}".format(str(len(covariates_cc))))
-        print("CC covariates: {}".format(covariates_cc))
-        print()
+    if conn_components:
+        print("Number of connected components: {}".format(str(len(conn_components))))
+        largest_conn_comp = max(conn_components, key=len)
+        print("Largest connected component size: {}".format(str(len(largest_conn_comp))))
+        conn_components.sort(key=len, reverse=True)
+        first_cc_covariates = []
+        second_cc_covariates = []
+        for cc in conn_components:
+            print("CC number of batches: {}".format(str(len(cc))))
+            print("CC batches: {}".format(cc.nodes))
+            covariates_cc = set()
+            for edge_cov in cc.edges.data('covariate'):
+                covariates_cc.update(edge_cov[2])
+            if not second_cc_covariates and first_cc_covariates:
+                second_cc_covariates.extend(covariates_cc)
+            if not first_cc_covariates:
+                first_cc_covariates.extend(covariates_cc)
+            print("CC number of covariates: {}".format(str(len(covariates_cc))))
+            print("CC covariates: {}".format(covariates_cc))
+            print()
+
+        if second_cc_covariates:
+            print("To extend a connected component, find new experiments that have covariates from that"
+            " component and another component.")
+            print("For instance, to extend the first component with all the elements of the second component,")
+            print(f"find a new study for the organism that has at least one element from {first_cc_covariates} as covariate")
+            print(f"and at least one element from {second_cc_covariates} as covariate.\n")
+    else:
+        print("Probably something wrong as no connected components are available...")
 
     return conn_components
 
