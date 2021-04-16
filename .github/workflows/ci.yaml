@@ -15,5 +15,8 @@ jobs:
           pip install networkx pandas jinja2
       - name: Run unittests
         run: python -m unittest
-      - name: Run doctest
-        run: python -m doctest -v merge_baseline_configuration_xmls.py
+      - name: Run doctests
+        run: |
+          python -m doctest -v merge_baseline_configuration_xmls.py
+          python -m doctest -v merge_condensed_sdrfs.py
+

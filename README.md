@@ -1,6 +1,11 @@
+![PyPI](https://img.shields.io/pypi/v/MAGE-Tab-merger)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ebi-gene-expression-group/MAGE-Tab-merger/Python%20CI)
+
 # MAGE-Tab Merger
 
 This package facilitates merging of MAGE-Tab components at different levels.
+
+Source code available at: https://github.com/ebi-gene-expression-group/MAGE-Tab-merger
 
 Note: IDF merging is still work in progress.
 
@@ -120,4 +125,41 @@ optional arguments:
                         New accession for the output
 ```
 
+
+## Convenience method for data merging
+
+Often it is the case that data needs to be merged into some format for later data analysis steps. The
+convenience method `merge_data.py` is aimed at that. Given a merged condensed SDRF where the `characteristic:study`
+encodes the accession of each original experiment, and data files available at `data/` path (for the sake of the example)
+named `<accession>-counts.tsv` where each sample is a column and there is a "Gene ID" index column on each of those files
+then executing:
+
+```
+merge_data.py -d data -s "-counts.tsv" -o merged_result.tsv -c condensed_SDRF.tsv -i "Gene ID" --remove-rows-with-empty
+```
+
+produces a merged data set with all desired samples. More info:
+
+```
+usage: merge_data.py [-h] -d INPUT_PATH -o OUTPUT [-s SUFFIX] -c MERGED_CONDENSED -i INDEX_COLUMN [-r REMOVE_ROWS_WITH_EMPTY]
+
+Merges data where samples are in columns, based on samples listed in the condensed SDRF given.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d INPUT_PATH, --input-path INPUT_PATH
+                        Directory with data to merge
+  -o OUTPUT, --output OUTPUT
+                        Path for output file.
+  -s SUFFIX, --suffix SUFFIX
+                        Suffix for counts file after <path>/<accession><suffix>
+  -c MERGED_CONDENSED, --merged-condensed MERGED_CONDENSED
+                        Path to a merged condensed SDRF, where the sample is equivalent to what is listed in the data file columns
+  -i INDEX_COLUMN, --index-column INDEX_COLUMN
+                        Column to join on
+  -r REMOVE_ROWS_WITH_EMPTY, --remove-rows-with-empty REMOVE_ROWS_WITH_EMPTY
+                        If set, removes rows that have empty values
+
+Assumes that the accessions are under characteristic - study to make the sample to accession link. Data files need to be available at <input-path>/<accession><suffix>
+```
 
