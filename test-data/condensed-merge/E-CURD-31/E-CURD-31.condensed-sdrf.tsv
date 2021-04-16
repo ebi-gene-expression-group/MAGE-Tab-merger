@@ -1,0 +1,63 @@
+E-CURD-31		SRR1740401	characteristic	age	4 day
+E-CURD-31		SRR1740401	characteristic	developmental stage	seedling development stage	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-31		SRR1740401	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-CURD-31		SRR1740401	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-CURD-31		SRR1740401	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-CURD-31		SRR1740401	characteristic	sampling site	root meristematic zone
+E-CURD-31		SRR1740401	factor	sampling site	root meristematic zone
+E-CURD-31		SRR1740402	characteristic	age	4 day
+E-CURD-31		SRR1740402	characteristic	developmental stage	seedling development stage	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-31		SRR1740402	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-CURD-31		SRR1740402	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-CURD-31		SRR1740402	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-CURD-31		SRR1740402	characteristic	sampling site	root meristematic zone
+E-CURD-31		SRR1740402	factor	sampling site	root meristematic zone
+E-CURD-31		SRR1740403	characteristic	age	4 day
+E-CURD-31		SRR1740403	characteristic	developmental stage	seedling development stage	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-31		SRR1740403	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-CURD-31		SRR1740403	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-CURD-31		SRR1740403	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-CURD-31		SRR1740403	characteristic	sampling site	root meristematic zone
+E-CURD-31		SRR1740403	factor	sampling site	root meristematic zone
+E-CURD-31		SRR1740404	characteristic	age	4 day
+E-CURD-31		SRR1740404	characteristic	developmental stage	seedling development stage	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-31		SRR1740404	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-CURD-31		SRR1740404	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-CURD-31		SRR1740404	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-CURD-31		SRR1740404	characteristic	sampling site	root elongation zone	http://purl.obolibrary.org/obo/PO_0025181
+E-CURD-31		SRR1740404	factor	sampling site	root elongation zone	http://purl.obolibrary.org/obo/PO_0025181
+E-CURD-31		SRR1740405	characteristic	age	4 day
+E-CURD-31		SRR1740405	characteristic	developmental stage	seedling development stage	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-31		SRR1740405	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-CURD-31		SRR1740405	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-CURD-31		SRR1740405	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-CURD-31		SRR1740405	characteristic	sampling site	root elongation zone	http://purl.obolibrary.org/obo/PO_0025181
+E-CURD-31		SRR1740405	factor	sampling site	root elongation zone	http://purl.obolibrary.org/obo/PO_0025181
+E-CURD-31		SRR1740406	characteristic	age	4 day
+E-CURD-31		SRR1740406	characteristic	developmental stage	seedling development stage	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-31		SRR1740406	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-CURD-31		SRR1740406	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-CURD-31		SRR1740406	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-CURD-31		SRR1740406	characteristic	sampling site	root elongation zone	http://purl.obolibrary.org/obo/PO_0025181
+E-CURD-31		SRR1740406	factor	sampling site	root elongation zone	http://purl.obolibrary.org/obo/PO_0025181
+E-CURD-31		SRR1740407	characteristic	age	4 day
+E-CURD-31		SRR1740407	characteristic	developmental stage	seedling development stage	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-31		SRR1740407	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-CURD-31		SRR1740407	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-CURD-31		SRR1740407	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-CURD-31		SRR1740407	characteristic	sampling site	root differentiation zone	http://purl.obolibrary.org/obo/PO_0020135
+E-CURD-31		SRR1740407	factor	sampling site	root differentiation zone	http://purl.obolibrary.org/obo/PO_0020135
+E-CURD-31		SRR1740408	characteristic	age	4 day
+E-CURD-31		SRR1740408	characteristic	developmental stage	seedling development stage	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-31		SRR1740408	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-CURD-31		SRR1740408	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-CURD-31		SRR1740408	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-CURD-31		SRR1740408	characteristic	sampling site	root differentiation zone	http://purl.obolibrary.org/obo/PO_0020135
+E-CURD-31		SRR1740408	factor	sampling site	root differentiation zone	http://purl.obolibrary.org/obo/PO_0020135
+E-CURD-31		SRR1740409	characteristic	age	4 day
+E-CURD-31		SRR1740409	characteristic	developmental stage	seedling development stage	http://purl.obolibrary.org/obo/PO_0007131
+E-CURD-31		SRR1740409	characteristic	ecotype	Col-0	http://www.ebi.ac.uk/efo/EFO_0005148
+E-CURD-31		SRR1740409	characteristic	organism	Arabidopsis thaliana	http://purl.obolibrary.org/obo/NCBITaxon_3702
+E-CURD-31		SRR1740409	characteristic	organism part	root	http://purl.obolibrary.org/obo/PO_0009005
+E-CURD-31		SRR1740409	characteristic	sampling site	root differentiation zone	http://purl.obolibrary.org/obo/PO_0020135
+E-CURD-31		SRR1740409	factor	sampling site	root differentiation zone	http://purl.obolibrary.org/obo/PO_0020135
