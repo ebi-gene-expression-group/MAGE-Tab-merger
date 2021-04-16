@@ -23,7 +23,7 @@ arg_parser.add_argument('-n', '--new-accession', help='New accession for the out
 arg_parser.add_argument('-b', '--batch', help='Header for storing batch or study', default='study')
 arg_parser.add_argument('-t', '--batch-type', help='Type for batch, usually characteristic', default='characteristic')
 arg_parser.add_argument('-c', '--covariate', help='Header for main covariate, usually organism part',
-                        default='organism_part')
+                        default='organism part')
 arg_parser.add_argument('--covariate-type', help='Type for main covariate, usually characteristic',
                         default='characteristic')
 arg_parser.add_argument('--covariate-skip-values',
