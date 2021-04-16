@@ -108,6 +108,8 @@ def cluster_samples(cond: pd, main_covariate: str, covariate_type: str,
     G = nx.Graph()
     covariate_values = cond.loc[(cond.Annot == main_covariate) & (cond.Annot_type == covariate_type)] \
         .Annot_value.unique().tolist()
+    if not covariate_values:
+        raise ValueError("No covariate values found, probably a wrong choice in main covariate or covariate type.")
     print("Complete list of covariates: {} {}".format(str(len(covariate_values)), covariate_values))
     for cov in covariate_values:
         print("Processing cov: {}".format(cov))
@@ -176,13 +178,17 @@ if __name__ == '__main__':
                             new_accession=args.new_accession
                             )
 
-    conn_components = cluster_samples(cond=cond,
-                                      main_covariate=args.covariate,
-                                      covariate_type=args.covariate_type,
-                                      covariate_skip_values=args.covariate_skip_values,
-                                      batch_characteristic=args.batch,
-                                      batch_type=args.batch_type
-                                      )
+    try:
+        conn_components = cluster_samples(cond=cond,
+                                          main_covariate=args.covariate,
+                                          covariate_type=args.covariate_type,
+                                          covariate_skip_values=args.covariate_skip_values,
+                                          batch_characteristic=args.batch,
+                                          batch_type=args.batch_type
+                                          )
+    except ValueError as e:
+        import sys
+        sys.exit(e)
 
     chosen_batches = list(conn_components[0].nodes)
 
