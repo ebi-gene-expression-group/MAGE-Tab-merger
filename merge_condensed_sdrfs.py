@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import sys
 import pandas as pd
 import networkx as nx
 import argparse
@@ -57,8 +58,8 @@ def merged_condensed(accessions, input_path, batch_type, batch_characteristic, n
     cond_cols = ['Accession', 'Array', 'Sample', 'Annot_type', 'Annot', 'Annot_value', 'Annot_ont_URI']
     cond = pd.DataFrame()
     for acc in accessions:
-        print("Parsing {} condensed SDRF..".format(acc))
-        cond_a = pd.read_csv("{}/{}/{}.condensed-sdrf.tsv".format(input_path, acc, acc), sep="\t", names=cond_cols)
+        print(f"Parsing {acc} condensed SDRF..")
+        cond_a = pd.read_csv(f"{input_path}/{acc}/{acc}.condensed-sdrf.tsv", sep="\t", names=cond_cols)
         cond_a['Accession'] = new_accession
         input = {}
         samples = cond_a.Sample.unique().tolist()
@@ -110,7 +111,7 @@ def cluster_samples(cond: pd, main_covariate: str, covariate_type: str,
         .Annot_value.unique().tolist()
     if not covariate_values:
         raise ValueError("No covariate values found, probably a wrong choice in main covariate or covariate type.")
-    print("Complete list of covariates: {} {}".format(str(len(covariate_values)), covariate_values))
+    print(f"Complete list of covariates: {str(len(covariate_values))} {covariate_values}")
     for cov in covariate_values:
         print("Processing cov: {}".format(cov))
         if cov in covariate_skip_values:
@@ -133,15 +134,15 @@ def cluster_samples(cond: pd, main_covariate: str, covariate_type: str,
 
     conn_components = [G.subgraph(c).copy() for c in nx.connected_components(G)]
     if conn_components:
-        print("Number of connected components: {}".format(str(len(conn_components))))
+        print(f"Number of connected components: {str(len(conn_components))}")
         largest_conn_comp = max(conn_components, key=len)
-        print("Largest connected component size: {}".format(str(len(largest_conn_comp))))
+        print(f"Largest connected component size: {str(len(largest_conn_comp))}")
         conn_components.sort(key=len, reverse=True)
         first_cc_covariates = []
         second_cc_covariates = []
         for cc in conn_components:
-            print("CC number of batches: {}".format(str(len(cc))))
-            print("CC batches: {}".format(cc.nodes))
+            print(f"CC number of batches: {str(len(cc))}")
+            print(f"CC batches: {cc.nodes}")
             covariates_cc = set()
             for edge_cov in cc.edges.data('covariate'):
                 covariates_cc.update(edge_cov[2])
@@ -149,9 +150,8 @@ def cluster_samples(cond: pd, main_covariate: str, covariate_type: str,
                 second_cc_covariates.extend(covariates_cc)
             if not first_cc_covariates:
                 first_cc_covariates.extend(covariates_cc)
-            print("CC number of covariates: {}".format(str(len(covariates_cc))))
-            print("CC covariates: {}".format(covariates_cc))
-            print()
+            print(f"CC number of covariates: {str(len(covariates_cc))}")
+            print(f"CC covariates: {covariates_cc}\n")
 
         if second_cc_covariates:
             print("To extend a connected component, find new experiments that have covariates from that"
@@ -187,7 +187,6 @@ if __name__ == '__main__':
                                           batch_type=args.batch_type
                                           )
     except ValueError as e:
-        import sys
         sys.exit(e)
 
     chosen_batches = list(conn_components[0].nodes)
@@ -198,6 +197,10 @@ if __name__ == '__main__':
                                          batch_characteristic=args.batch,
                                          new_accession=args.new_accession
                                          )
+
+    # make sure output directory exists.
+    from pathlib import Path
+    Path(args.output).mkdir(parents=True, exist_ok=True)
 
     blessed_condensed.to_csv(path_or_buf=os.path.join(args.output, f"{args.new_accession}.condensed.sdrf.tsv"), sep="\t",
                              index=False, header=False)
