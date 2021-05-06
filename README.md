@@ -21,6 +21,27 @@ pip install MAGE-Tab-merger
 
 Once installed, you need to activate that virtual environment before using it every time that you open a new shell.
 
+## Obtain data from Expression Atlas FTP
+
+If all the data that you want to merge is publicly available within Expression Atlas, then you can use this convenience
+call to get all the needed data for a set of Atlas studies:
+
+```
+usage: retrieve_data.py [-h] -i INPUT_PATH -a ACCESSIONS [-d] [-f] [-r]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i INPUT_PATH, --input-path INPUT_PATH
+                        Directory where <accession>/<files> will be checked and downloaded to if not present.
+  -a ACCESSIONS, --accessions ACCESSIONS
+                        List of accessions to process, comma separated
+  -d, --also-data       Also download data (transcripts and genes raw counts) and not only metadata
+  -f, --fail-on-missing
+                        Exit with an error if a file cannot be downloaded
+  -r, --replace         Replace existing files.
+```
+
+
 ## SDRF with no considerations on metadata
 
 This functionality will simply produce a new SDRF out of all the SDRFs provided, taking care to follow all the structure

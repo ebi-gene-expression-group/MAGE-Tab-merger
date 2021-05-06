@@ -11,12 +11,16 @@ jobs:
       - uses: actions/setup-python@v1
       - name: Install depenedncies
         run: |
-          python -m pip install --upgrade pip
-          pip install networkx pandas jinja2
+          python -m pip install --upgrade pip setuptools
+          pip install networkx==2.5 pandas jinja2 requests twine wheel build
+      - name: Create and check packages
+        run: |
+          python -m build --sdist --wheel --outdir dist/ .
       - name: Run unittests
         run: python -m unittest
       - name: Run doctests
         run: |
           python -m doctest -v merge_baseline_configuration_xmls.py
           python -m doctest -v merge_condensed_sdrfs.py
+          python -m doctest -v retrieve_data.py
 
