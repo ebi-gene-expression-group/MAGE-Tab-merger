@@ -76,6 +76,7 @@ def download_files(accession, local_path, replace=False, fail_on_missing_file=Fa
                 try:
                     print(f"Downloading {file}")
                     _download(final_path, remote_path)
+                    break
                 except:
                     print(f"Download failed, {attempt} attempts remaining")
                     sleep(3)
