@@ -19,4 +19,5 @@ jobs:
         run: |
           python -m doctest -v merge_baseline_configuration_xmls.py
           python -m doctest -v merge_condensed_sdrfs.py
+          python -m doctest -v retrieve_data.py
 
