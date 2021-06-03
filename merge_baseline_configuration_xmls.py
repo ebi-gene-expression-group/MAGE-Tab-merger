@@ -11,6 +11,11 @@ arg_parser.add_argument('-x', '--directory-with-configuration-files',
                         required=True,
                         help="Directory with configuration XMLs to merge"
                         )
+arg_parser.add_argument('-u', '--use-subdir',
+                        required=False,
+                        help="If set to 'True', uses subdirectory structures like created by the retrieve_data.py function",
+                        default="False"
+                        )   
 arg_parser.add_argument('--accessions-file', required=False,
                         help="File with comma separated list of accessions to use only. "
                              "Overrides accessions list."
@@ -93,7 +98,10 @@ def add_assay_groups_from_accession(path, accession, assay_groups: ET.Element, c
     >>> children[28].get("label") == f"tonsil; {accession}"
     True
     """
-    conf_xml_path = f"{path}/{accession}-configuration.xml"
+    if args.use_subdir == "True":  
+            conf_xml_path = f"{path}/{accession}/{accession}-configuration.xml"
+    else:
+            conf_xml_path = f"{path}/{accession}-configuration.xml"
     ag_counter = 0
     if os.path.isfile(conf_xml_path):
         for ag in get_assay_groups(conf_xml_path):
