@@ -51,7 +51,10 @@ def merge_data(sample_accession_table, join_type, index_col, input_path, file_su
     """
     merged = None
     for accession in sample_accession_table.Accession.unique().tolist():
-        data = pd.read_csv(f"{input_path}/{accession}{file_suffix}", sep="\t")
+        if args.use_subdir == "True":  
+            data = pd.read_csv(f"{input_path}/{accession}/{accession}{file_suffix}", sep="\t")
+        else:
+            data = pd.read_csv(f"{input_path}/{accession}{file_suffix}", sep="\t")
         cols = [index_col]
         cols.extend(sample_accession_table.loc[sample_accession_table['Accession'] == accession].Sample.unique().tolist())
         # select the samples
@@ -75,8 +78,13 @@ if __name__ == '__main__':
                             required=True,
                             help="Directory with data to merge"
                             )
+    arg_parser.add_argument('-u', '--use-subdir',
+                            required=False,
+                            help="If set to 'True', uses subdirectory structures like created by the retrieve_data.py function",
+                            default="False"
+                            )  
     arg_parser.add_argument('-o', '--output', required=True,
-                            help="Path for output file."
+                            help="Path for output file / filename and format (.tsv)."
                             )
     arg_parser.add_argument('-s', '--suffix', required=False,
                             help="Suffix for counts file after <path>/<accession><suffix>",
@@ -96,12 +104,14 @@ if __name__ == '__main__':
     if args.remove_rows_with_empty:
         merge_type = "inner"  # inner join: only what is shared by the two pds being merged
 
+    print("merging the files")
     result = merge_data(sample_accession_table=sample_accession,
                         join_type=merge_type,
                         index_col=args.index_column,
                         input_path=args.input_path,
                         file_suffix=args.suffix)
 
+    print("exporting the results")
     result.to_csv(args.output, sep="\t", index=False)
 
 
