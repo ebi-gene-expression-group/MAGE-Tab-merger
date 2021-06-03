@@ -24,7 +24,7 @@ Once installed, you need to activate that virtual environment before using it ev
 ## Obtain data from Expression Atlas FTP
 
 If all the data that you want to merge is publicly available within Expression Atlas, then you can use this convenience
-call to get all the needed data for a set of Atlas studies:
+call to get all the needed data for a set of Atlas studies. The usual input path is http://ftp.ebi.ac.uk/pub/databases/microarray/data/atlas/experiments/ .
 
 ```
 usage: retrieve_data.py [-h] -i INPUT_PATH -a ACCESSIONS [-d] [-f] [-r]
@@ -127,7 +127,7 @@ Given a set of configuration XML files, named as <ACCESSION>-configuration.xml a
 the following can be run to merge them into a single XML:
 
 ```
-usage: merge_baseline_configuration_xmls.py [-h] -x DIRECTORY_WITH_CONFIGURATION_FILES
+usage: merge_baseline_configuration_xmls.py [-h] -x DIRECTORY_WITH_CONFIGURATION_FILES [-u USE_SUBDIR]
                                             [--accessions-file ACCESSIONS_FILE] [-a ACCESSIONS_LIST] -o
                                             OUTPUT -n NEW_ACCESSION
 
@@ -165,7 +165,7 @@ merge_data.py -d data -s "-counts.tsv" -o merged_result.tsv -c condensed_SDRF.ts
 produces a merged data set with all desired samples. More info:
 
 ```
-usage: merge_data.py [-h] -d INPUT_PATH -o OUTPUT [-s SUFFIX] -c MERGED_CONDENSED -i INDEX_COLUMN [-r REMOVE_ROWS_WITH_EMPTY]
+usage: merge_data.py [-h] -d INPUT_PATH [-u USE_SUBDIR] -o OUTPUT [-s SUFFIX] -c MERGED_CONDENSED -i INDEX_COLUMN [-r REMOVE_ROWS_WITH_EMPTY]
 
 Merges data where samples are in columns, based on samples listed in the condensed SDRF given.
 
