@@ -135,6 +135,9 @@ optional arguments:
   -h, --help            show this help message and exit
   -x DIRECTORY_WITH_CONFIGURATION_FILES, --directory-with-configuration-files DIRECTORY_WITH_CONFIGURATION_FILES
                         Directory with configuration XMLs to merge
+  -u USE_SUBDIR, --use-subdir USE_SUBDIR
+                        If set to 'True', uses subdirectory structures like created by the retrieve_data.py
+                        function
   --accessions-file ACCESSIONS_FILE
                         File with comma separated list of accessions to use only. Overrides accessions
                         list.
@@ -170,6 +173,9 @@ optional arguments:
   -h, --help            show this help message and exit
   -d INPUT_PATH, --input-path INPUT_PATH
                         Directory with data to merge
+  -u USE_SUBDIR, --use-subdir USE_SUBDIR
+                        If set to 'True', uses subdirectory structures like created by the retrieve_data.py
+                        function
   -o OUTPUT, --output OUTPUT
                         Path for output file.
   -s SUFFIX, --suffix SUFFIX
