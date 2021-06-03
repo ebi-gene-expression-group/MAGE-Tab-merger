@@ -159,7 +159,7 @@ named `<accession>-counts.tsv` where each sample is a column and there is a "Gen
 then executing:
 
 ```
-merge_data.py -d data -s "-counts.tsv" -o merged_result.tsv -c condensed_SDRF.tsv -i "Gene ID" --remove-rows-with-empty
+merge_data.py -d data -s "-counts.tsv" -u True -o merged_result.tsv -c condensed_SDRF.tsv -i "Gene ID" --remove-rows-with-empty
 ```
 
 produces a merged data set with all desired samples. More info:
